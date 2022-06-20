@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter } from "react-router-dom"
+import { AuthContextProvider } from './context/authContext/AuthContext';
+import { MovieContextProvider } from './context/movieContext/MovieContext';
+import { GenreListContextProvider } from './context/genrelistContext/GenreListContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  <BrowserRouter>
+    <AuthContextProvider>
+      <MovieContextProvider>
+        <GenreListContextProvider>
+          <App />
+        </GenreListContextProvider>
+      </MovieContextProvider>
+    </AuthContextProvider>
+  </BrowserRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

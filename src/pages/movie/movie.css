@@ -1,0 +1,131 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+.ProductContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addProduct{
+    width: 80px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(64, 64, 212);
+    cursor: pointer;
+    color:white;
+}
+.productTop{
+    display: flex;
+}
+.producttopLeft,.producttopRight{
+    flex: 1;
+}
+.producttopLeft{
+    padding: 15px;
+    margin: 5px;
+}
+
+.producttopRight{
+    
+    padding: 5px;
+    margin: 15px;
+    box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+}
+.producucttopImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productinfoTop{
+    display: flex;
+    align-items: center;
+}
+.productName{
+    font-weight: 800;
+    margin-left: 10px;
+}
+.productinfoBottom{
+    margin-top: 15px;
+}
+.productinfoItem{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+    
+}
+.productinfoKey{
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+.productinfovalue{
+    font-weight: 300;
+ 
+
+ 
+
+}
+.productbottom{
+    padding: 25px;
+    margin: 15px;
+    box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+
+}
+.productform{
+    display: flex;
+    justify-content:space-between;
+}
+.productformleft{
+    display: flex;
+    flex-direction: column;
+}
+.productformleft>label{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.productformleft>input{
+    margin-bottom: 10px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.productformleft>select{
+    margin-bottom: 10px;
+}
+.producuctImageUpload{
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+.productformRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productUpload{
+    display: flex;
+    align-items: center;
+}
+.productUpload>input{
+    margin-left: 8px;
+}
+.updatebutton{
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(64, 64, 212);
+    cursor: pointer;
+    color:white;
+    margin-left: 10px;
+
+}

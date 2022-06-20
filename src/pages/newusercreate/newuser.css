@@ -1,0 +1,54 @@
+.newuser{
+  flex: 4;
+  padding: 25px;
+}
+.newuserform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newuserformItems{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.newuserformItems>label{
+    margin-bottom: 5px;
+    font-weight: 600;
+    
+}
+.newuserformItems>input{
+    padding: 5px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+/* .gender>input{
+    margin-top: 5px;
+   
+
+} */
+/* .gender>label{
+    margin-left: 5px;
+} */
+.gender{
+    display: flex;
+    align-items: center;
+  
+}
+.newuserselect{
+    height: 25px;
+    border-radius: 8px;
+}
+
+.newuswerbutton{
+    width: 150px;
+    border: none;
+    background-color: rgb(60, 60, 216);
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    color: white;
+}

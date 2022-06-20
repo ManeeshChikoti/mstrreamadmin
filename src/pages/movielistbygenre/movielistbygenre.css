@@ -1,0 +1,32 @@
+.movielist{
+    flex: 4;
+}
+.movienameContainer{
+    display: flex;
+    align-items: center;
+
+}
+.movieImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:5px ;
+}
+.movieaction{
+    display: flex;
+    align-items: center;
+}
+.movielistEdit{
+    border: none;
+    border-radius: 6px;
+    padding: 5px 13px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.movielistDelete{
+    color: rgb(218, 107, 107);
+    cursor: pointer;
+}

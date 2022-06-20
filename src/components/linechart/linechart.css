@@ -1,0 +1,9 @@
+.linechart{
+    margin: 25px;
+    padding: 25px;
+    box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+   height: 300px;
+ 
+}

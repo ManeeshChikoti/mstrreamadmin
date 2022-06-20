@@ -1,0 +1,46 @@
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.infoitems{
+    flex: 1;
+    margin: 0px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 7px 12px 1px rgba(0,0,0,0.75);
+
+}
+.infoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.infoMoneyContainer{
+    margin-top: 10px 0px;
+    display: flex;
+    align-items: center;
+
+}
+.infoMoney{
+    font-weight: 400;
+    font-size: 30px;
+}
+.infoRate{
+
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    
+
+}
+.infoIcon{
+
+    margin-left: 5px;
+    color: green;
+}
+.negative{
+    color: red;
+}

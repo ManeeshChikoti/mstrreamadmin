@@ -1,0 +1,32 @@
+.sidebar{
+    flex:1;
+   height: calc(100vh - 50px);
+    background-color:#adb8fb;
+   position:sticky;
+   top: 50px; 
+   
+}
+.sidebarwrapper{
+    padding: 5px;
+}
+.menu{
+    margin-bottom: 10px;
+    /* color: white; */
+}
+.menulist{
+    list-style: none;
+    padding-left: 3px;
+ 
+}
+.items{
+    padding: 3px;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.items.active,.items:hover{
+    background-color: #5e70d5;
+}
