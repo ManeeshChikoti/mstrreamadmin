@@ -32,6 +32,7 @@ function App() {
         <Sidebar />
         {/* currently working on users and crud operations them and updating movieinfo and other
              the above mentioned are  not part of capstone project */}
+
         <Routes>
           <Route   path="/" element={<Home />} />
           <Route path="/users" element={<Userslist />} />
